@@ -1,7 +1,7 @@
 # Workshop on basic bash and R programming skills 
 
 > **NOTE** 
-> This was developed/organized for the CIRM workshop at Cal Poly Humboldt in the summer of 2023.  
+> This was developed/organized for the CIRM workshop at Cal Poly Humboldt in the summer of 2024.  
 
 The aim of the workshop is to provide the attendants with the jump-start skills necessary to begin using bash and the R programing language. 
 
@@ -13,16 +13,18 @@ At the end of the course participants will be comfortable using the R environmen
 
 ## Program (subject to change):
 
-[D-1](https://github.com/oscarvargash/cirm_23/tree/main/day_1) introduction to bash: file and folder management, text files, cat, grep
+[D-1](https://github.com/oscarvargash/cirm_24/tree/main/day_1) introduction to bash: file and folder management, text files, cat, grep, recursion
 
-[D-2](https://github.com/oscarvargash/cirm_23/tree/main/day_2) introduction to R, R elements, importing datasets
+[D-2](https://github.com/oscarvargash/cirm_24/tree/main/day_2) introduction to R, R elements, importing datasets
 
-[D-3](https://github.com/oscarvargash/cirm_23/tree/main/day_3) Single cell analysis with seurat
+[D-3](https://github.com/oscarvargash/cirm_24/tree/main/day_3) Single cell analysis with seurat
 
-# Instructors:
-
-[Catalina Cuellar](https://cuellar-gempeler-lab.weebly.com/) (ccg@humboldt.edu): Associate Professor, experience with bioinformatics and microbial ecology
+# Instructor:
 
 [Oscar Vargas](http://oscarmvargas.com/) (<ov20@humboldt.edu>): Assistant Professor of Botany, experience with bioinformatics and phylogenomics.
 
+# Assistants:
 
+Eli Allen: MSc in biology and PhD student at UC Santa Cruz (starting Fall 2024). Experience with bioinformatics and phylogenomics.
+
+Cameron Jones: MSc student in biology. Experience with bioinformatics, phylogenomics, and GIS.
