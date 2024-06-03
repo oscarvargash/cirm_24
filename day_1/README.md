@@ -290,16 +290,6 @@ Notice that regarding the extension of the file `.txt` / `.r` cat prints the con
 > Remove your flag if you are good to continue ![](img/green.jpeg)
 
 
-
-# Day one, afternoon, managing files and using programs
-
-To start this tutorial you need to be logged in the Linux virtual machine
-[vlinux.humboldt.edu](https://vlinux.humboldt.edu/)
-
-Once logged in the Linux machine, look for the Terminal, it is an icon that contains the characters '>\_'
-
-You can also write 'terminal' in the search bar of the main manu located in the left bottom of the operating system.
-
 ## Cancel a running process
 
 > Add the flag to the corner of your screen ![](img/yellow.jpeg)
@@ -372,6 +362,16 @@ rm *.r
 ***EXTREME CAUTION `rm *` will remove ALL the files inside the directory forever!***
 
 > Remove your flag if you are good to continue ![](img/green.jpeg)
+
+
+# Day one, afternoon, managing files and using programs
+
+To start this tutorial you need to be logged in the Linux virtual machine
+[vlinux.humboldt.edu](https://vlinux.humboldt.edu/)
+
+Once logged in the Linux machine, look for the Terminal, it is an icon that contains the characters '>\_'
+
+You can also write 'terminal' in the search bar of the main manu located in the left bottom of the operating system.
 
 ## Using programs
 
