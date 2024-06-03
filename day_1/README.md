@@ -383,7 +383,7 @@ Please download in your machine a compressed file with the data in the folder na
 
 ```
 cd ~Documents/day_01
-wget https://github.com/oscarvargash/cirm_23/raw/main/day_1/files/files.zip
+wget https://github.com/oscarvargash/cirm_24/raw/main/day_1/files/files.zip
 ```
 
 As you can see, this is a compressed file. We can decompressed by
@@ -434,7 +434,7 @@ This is file produced by a next-generation squencing run using an Illumina machi
 
 </details>
 
-## Solviing a problem. We are interested in knowing how many sequeces are found in each file; how can we find out this?
+## Solving a problem. We are interested in knowing how many sequeces are found in each file; how can we find out this?
 
 There is a program called `grep` that is able to search for specific words or characters. Furthermore, we know that every sequence in our file starts with `@`.
 
@@ -459,9 +459,9 @@ grep -c "@" L008_R1.fastq
 How many sequences are found in the other three sequence files?
 Add these numbers to a text file in your folder using `nano`
 
-Teh file name should be sequence_count.txt
+The file name should be `sequence_count.txt`
 
-PLease follow the following format:
+Please follow the following format:
 ```L008_R1.fastq 32869```
 
 Check with your instructor or teaching assistant before going further
@@ -501,8 +501,6 @@ Analyze the remaning files (protip: you can analyze all 4 files using a single l
 
 Do the sequence numbers match your calculations with grep?
 
-Relatively which files have with low quality based on "Per base sequence quality"?
-
 > Remove your flag if you are good to continue ![](img/green.jpeg)
 
 Congrats, you have succesfully finish the introduction to bash tutorial !!!!!
@@ -510,4 +508,4 @@ Here is a great resource for the future:
 
 ### Cheat sheet of linux commands
 
-There are a many commands that we did not cover in this initial tutorial. You can search for basic linux commands in google for aditional ones. A good set of commands can be [downloaded here](https://sites.tufts.edu/cbi/files/2013/01/linux_cheat_sheet.pdf)
+There are a many commands that we did not cover in this initial tutorial. You can search for basic linux commands in google for aditional ones. A good set of commands can be [consulted here](https://www.hostinger.com/tutorials/linux-commands)
