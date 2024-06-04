@@ -6,14 +6,12 @@
 
 2. Download the following data https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz and place it in `Documents`
 
-3. This is a double compressed file. Decompress the file by right clicking and then selecting the options `7-zip` `Extract here`. Repeat this with the `*.tar` file. We will work in the folder `hg19`, whic is nested in `filtered_gene_bc_matrices`
+3. This is a compressed file. Double-click on the cpmressed file and copy the folder `filtered_gene_bc_matrices` into the `day_3` folder created previously. Our working directory will be the folder `hg19`, which is nested in `filtered_gene_bc_matrices`
 
-4. Set the folder 'hg19' as your working directory (in RStudio > Session > set working directory)
+4. Set the folder `hg19` as your working directory (in RStudio > Session > set working directory)
 
 ```
-setwd("YOUR_USER/Documents/day_3/pbmc3k/filtered_gene_bc_matrices/hg19/")
-
-pbmc.data <- Read10X(data.dir = ".")
+setwd("YOUR_USER/Documents/day_3/sfiltered_gene_bc_matrices/hg19/")
 ```
 
 5. Install the following packages
@@ -31,5 +29,12 @@ library(Seurat)
 library(patchwork)
 ```
 
-6. Follow the tutorial found here https://satijalab.org/seurat/articles/pbmc3k_tutorial.html  
+6. Import the data
+
+```
+pbmc.data <- Read10X(data.dir = ".")
+```
+
+
+7. Follow the tutorial found here https://satijalab.org/seurat/articles/pbmc3k_tutorial.html  
 
